@@ -1,0 +1,88 @@
+/* RESET-ish */
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    color: #111;
+}
+
+/* HEADER IMAGE */
+.hero img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* TITLE */
+.site-title {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.site-title h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+/* MAIN CONTENT LAYOUT */
+.content {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+/* LEFT COLUMN */
+.left h2 {
+    font-family: Arial, sans-serif;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+}
+
+.story {
+    margin-bottom: 2rem;
+}
+
+.story h3 {
+    margin-bottom: 0.3rem;
+}
+
+.story .source {
+    font-size: 0.85rem;
+    color: #666;
+}
+
+/* RIGHT COLUMN */
+.right {
+    background: #f4f2ef;
+    padding: 1.5rem;
+}
+
+.right h2 {
+    color: #b22222;
+    font-family: Arial, sans-serif;
+}
+
+/* STORY CARDS */
+.story-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+    background: white;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.story-card:hover {
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+    transform: translateY(-2px);
+}
+
+.story-card h3 {
+    margin-top: 0;
+}

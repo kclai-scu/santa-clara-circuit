@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example Research Paper</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <nav>
+        <a href="../index.html">Home</a>
+    </nav>
+
+    <article>
+        <h1>Example Research Paper Title</h1>
+        <p><strong>Authors:</strong> Jane Doe, John Smith</p>
+        <p><strong>Affiliation:</strong> Santa Clara University</p>
+
+        <section>
+            <h2>Abstract</h2>
+            <p>This is where the abstract will go.</p>
+        </section>
+
+        <section>
+            <h2>Introduction</h2>
+            <p>This is where the paper content begins.</p>
+        </section>
+    </article>
+
+</body>
+</html>
