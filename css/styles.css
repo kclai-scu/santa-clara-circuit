@@ -86,3 +86,8 @@ body {
 .story-card h3 {
     margin-top: 0;
 }
+
+.source{
+    color: #ff0000; /*bright red*/
+    font-size: 0.9em; 
+}
